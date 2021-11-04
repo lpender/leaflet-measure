@@ -14,8 +14,15 @@ Coordinate, linear, and area measure control for [Leaflet](http://leafletjs.com)
 
 ## Usage
 
-TODO. Add usage
+### Installation
 
+```
+$ npm install --save-dev leaflet-measure
+```
+
+```
+import "leaflet-measure"
+```
 
 ## Add control to a Leaflet map
 
@@ -23,6 +30,8 @@ TODO. Add usage
 
 The measure control can be instantiated directly and added to a map:
 ```javascript
+
+
 var myMap = L.map('mapElementId', options);
 var measureControl = new L.Control.Measure(options);
 measureControl.addTo(myMap);
